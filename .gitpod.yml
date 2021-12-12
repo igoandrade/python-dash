@@ -4,7 +4,7 @@ tasks:
 
 vscode:
   extensions:
-    - almenon.arepl@1.0.20:Uu7lIOwyLgmNWpTwCl/iqQ==
-    
+    - almenon.arepl
+
 image:
   file: .gitpod.dockerfile

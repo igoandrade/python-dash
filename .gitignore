@@ -106,3 +106,6 @@ dist
 
 # win32-x64 Folder
 *win32-x64/
+
+# Vscode Folder
+.vscode

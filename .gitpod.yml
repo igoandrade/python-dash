@@ -1,6 +1,10 @@
 tasks:
-  - init: pip3 install -r requirements.txt
+  - name: Python Requirements
+    init: pip3 install -r requirements.txt
     command: python3 main.py
+
+  - name: Node Dependencies
+    init: npm install
 
 vscode:
   extensions:

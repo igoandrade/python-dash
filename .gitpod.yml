@@ -9,6 +9,7 @@ tasks:
 vscode:
   extensions:
     - almenon.arepl
+    - ms-python.python
 
 image:
   file: .gitpod.dockerfile

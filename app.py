@@ -1,9 +1,10 @@
 # Import the required packages using their usual aliases:
 import dash
 import dash_html_components as html
+import dash_bootstrap_components as dbc
 
 # Create (instantiate) the app:
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # Create the app's layout:
 app.layout = html.Div([
@@ -11,8 +12,7 @@ app.layout = html.Div([
         children='Poverty And Equity Database',
         style={
             'color': 'blue',
-            'fontSize': '32px',
-            'marginLeft': '20%'
+            'fontSize': '32px'        
         }
     ),
     html.H2('The World Bank'),

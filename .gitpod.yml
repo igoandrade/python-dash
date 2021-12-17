@@ -1,14 +1,19 @@
+ports:
+  - port: 8888
+    onOpen: open-preview
+
 tasks:
   - name: Python Requirements
     init: pip install -r requirements.txt
 
   - name: Node Dependencies
-    init: npm install
+    init: npm instal
 
 vscode:
   extensions:
     - almenon.arepl
     - ms-python.python
+    - ms-toolsai.jupyter
 
 image:
   file: .gitpod.dockerfile

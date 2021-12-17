@@ -109,3 +109,6 @@ dist
 
 # Vscode Folder
 .vscode
+
+# Python Virtual Environment
+venv

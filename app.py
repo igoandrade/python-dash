@@ -1,6 +1,6 @@
 # Import the required packages using their usual aliases:
 import dash
-# import dash_html_components as html
+# import dash_html_components as html # Deprecated
 from dash import html
 import dash_bootstrap_components as dbc
 

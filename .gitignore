@@ -112,3 +112,5 @@ dist
 
 # Python Virtual Environment
 venv
+
+.ipynb_checkpoints/

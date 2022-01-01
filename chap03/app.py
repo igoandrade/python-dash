@@ -10,7 +10,7 @@ from dash.dependencies import Output, Input
 import plotly.graph_objects as go
 
 ##  Instanciação do 'app'
-app = JupyterDash(__name)
+app = JupyterDash(__name__)
 
 ## Layout do 'app'
 app.layout = html.Div([

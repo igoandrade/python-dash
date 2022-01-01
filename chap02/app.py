@@ -1,7 +1,7 @@
 # Uso de notebooks Jupyter para rodar aplicativos Dash
 
 ## Inportação dos pacotes requeridos
-from dash import html
+import dash_html_components as html
 import dash_core_components as dcc
 from jupyter_dash import JupyterDash
 from dash.dependencies import Output, Input
